@@ -4,7 +4,7 @@
 	<div class="row-fluid" id="tag">
 		<div class="blur">
 			<div id="tagged" class="croisant">
-				post etiquetados con {{$tag}}
+				posts tagged with {{$tag}}
 			</div>
 		</div>
 	</div>
