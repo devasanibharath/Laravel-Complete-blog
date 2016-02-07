@@ -1,0 +1,259 @@
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Croissant+One);
+
+.croisant{
+	font-family: 'Croissant One', cursive;
+}
+
+.white{
+	color: white;
+}
+
+.blue{
+	color: #15ACD1;
+}
+
+/* Navbars */
+
+.hide{
+	display: none;
+}
+
+#never{
+	margin-bottom: 0px;
+}
+
+/* Website */
+
+header{
+	background-image: url('https://download.unsplash.com/photo-1417733403748-83bbc7c05140');
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.blur{
+	min-height: inherit;
+	background-color: rgba(0,0,0,.5);
+}
+
+section{
+	height: auto;
+	padding-top: 65px;
+}
+
+footer{
+	background-color: #009E66;
+	border-top: 3px solid #404040;
+	min-height: 350px;
+	padding-top: 5%;
+}
+
+#title{
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	padding-top: 10%;
+}
+
+#subtitle{
+	font-size: 2.5em;
+	color: white;
+	text-align: center;
+	margin-top: 2%;
+}
+
+.btn{
+	border-radius: 0px;
+}
+
+.btn-web{
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	margin-top: 1%;
+	-webkit-transition: background-color .5s, border .5s;
+	-moz-transition: background-color .5s, border .5s;
+	-o-transition: background-color .5s, border .5s;
+}
+
+.btn-web:hover{
+	background-color: white;
+	border: 5px solid white;
+	color: tomato;
+	-webkit-transition: background-color .5s, border .5s;
+	-moz-transition: background-color .5s, border .5s;
+	-o-transition: background-color .5s, border .5s;
+	cursor: pointer;
+}
+
+/* Articles Page */
+
+#artitle{
+	color: white;
+	font-size: 3em;
+	padding-top: 15vh;
+	text-align: center;
+}
+
+.lb{
+	border-radius: 0px;
+	font-size: 12px;
+}
+
+/* Tags section */
+
+#tag{
+	background-image: url('https://download.unsplash.com/uploads/141103282695035fa1380/95cdfeef');
+	min-height: 35vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	border-bottom: 5px solid tomato;
+}
+
+#tagged	{
+	color: white;
+	font-size: 3em;
+	padding-top: 12vh;
+	text-align: center;
+}
+
+.tgs{
+	padding:0px;
+}
+
+#taggex{
+	color: white;
+	font-size: 2.5em;
+	padding-top: 14vh;
+	text-align: center;
+}
+
+#taggex:hover{
+	color: steelblue;
+	font-size: 2.5em;
+	padding-top: 14vh;
+	text-align: center;
+	text-decoration: none;
+}
+
+.tl:hover{
+	cursor: pointer;
+}
+
+#bhome{
+	min-height: 40vh;
+	background-image: url('https://download.unsplash.com/photo-1428223501723-d821c5d00ca3');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* Admin section */
+
+#admin{
+	margin-top: 15vh;
+}
+
+.foo{
+	width: 150px;
+}
+
+/* Sociales */
+
+.twitter{
+	color: #55ccee;
+}
+
+.facebook{
+	color: #3b5998;
+}
+
+.youtube{
+	color: #e52d27;
+}
+
+.vine{
+	color: #00b488;
+}
+
+.linkedin{
+	color: #0976b4;
+}
+
+/* Login style */
+
+#log{
+	background-color: #d7584f;
+}
+
+#logbox{
+	min-height: 100vh;
+	padding-top: 20vh;
+}
+/* Media Querys */
+
+@media(max-width: 500px){
+	#title{
+		font-size: 3em;
+		color: white;
+		text-align: center;
+		padding-top: 10%;
+	}
+
+	#subtitle{
+		font-size: 1em;
+		color: white;
+		text-align: center;
+		margin-top: 2%;
+	}
+	header{
+		background-image: url('/css/images/back.jpg');
+		min-height: 50vh;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+	}
+
+	footer{
+		background-color: #009E66;
+		min-height: 150px;
+	}
+
+	#artitle{
+		color: white;
+		font-size: 1.5em;
+		padding-top: 7vh;
+		text-align: center;
+	}
+
+	#tagged	{
+		color: white;
+		font-size: 1.5em;
+		padding-top: 6vh;
+		text-align: center;
+	}
+
+	.tgs{
+		padding:0px;
+	}
+
+	#taggex{
+		color: white;
+		font-size: 1.25em;
+		padding-top: 7vh;
+		text-align: center;
+	}
+
+	#taggex:hover{
+		color: steelblue;
+		font-size: 1.25em;
+		padding-top: 7vh;
+		text-align: center;
+		text-decoration: none;
+	}
+	#admin{
+		margin-top: 7vh;
+	}
+}

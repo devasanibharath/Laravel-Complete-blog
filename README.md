@@ -1,2 +1,1 @@
-# Laravel-Complete-blog
-Complete Blog with SEO Optimized - Laravel 5
+Complete SEO Optimized Blog Using Laravel 5 

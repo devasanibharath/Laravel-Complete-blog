@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Bharath
+        psr4_prefix: Bharath
+        src_path: app
