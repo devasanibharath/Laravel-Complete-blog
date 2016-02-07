@@ -1,5 +1,5 @@
 @extends('template.main')
-@section('title'){{'Contenido de etiqueta | ZBlog'}}@endsection
+@section('title'){{'Tags | ZBlog'}}@endsection
 @section('content')
 	<div class="row-fluid" id="tag">
 		<div class="blur">
